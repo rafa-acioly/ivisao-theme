@@ -5,7 +5,7 @@
     <?php get_template_part('components/nav', 'nav') ?>
   </div>
 
-  <div class="hero-body">
+  <section class="hero-body">
     <div class="container">
       <div class="columns">
         <div class="column is-8-desktop main-title">
@@ -43,8 +43,8 @@
         </div>
       </div>
     </div>
-  </div>
-  <div class="hero-section">
+  </section>
+  <main class="hero-section">
     <div class="container">
       <div class="columns">
         <div class="column vertical-align">
@@ -70,9 +70,9 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
   <footer class="hero-foot has-text-centered">
-    Avenida Tivoli, 279, Jd.Bethania - São José dos Campos
+    <address>Avenida Tivoli - 279, Jd.Bethania - São José dos Campos</address>
   </footer>
 </div>
 
