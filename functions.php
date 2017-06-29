@@ -11,7 +11,7 @@ add_theme_support( 'menus' );
   unset($submenu['edit.php'][16]);
   remove_menu_page('upload.php');
   remove_menu_page('link-manager.php');
-  remove_menu_page('edit.php?post_type=page');
+  //remove_menu_page('edit.php?post_type=page');
   // remove_menu_page('options-general.php');
   remove_menu_page('tools.php');
   // remove_menu_page('edit.php');
