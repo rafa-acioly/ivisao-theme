@@ -1,0 +1,19 @@
+/*
+Theme Name:         Instituto da Visão
+Description:        Tema desenvolvimento especialmente para Instituto da Visão
+Version:            1.0.0
+Author:             F|Martins
+Author URI:         http://agfmartins.com.br/
+Text Domain:        F|Martins
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+/*
+  Alteração de navbar
+ */
+
+.hero-nav .nav {
+  height: 4.25rem;
+}
