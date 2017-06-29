@@ -10,37 +10,160 @@ License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
 
-/*
-  Alteração de navbar
+/**
+ * Helpers
  */
+.is-round {
+  border-radius: 100%;
+}
 
+.vertical-align {
+  display: flex;
+  justify-content: center;
+}
+
+.is-fullwidth {
+  width: 100%;
+}
+/**
+ * Alteração de navbar
+ */
 .hero-nav .nav {
-  height: 5.25rem;
+  height: 6.25rem;
 }
 
-.nav
-.nav-right {
+.nav .nav-right {
   flex-direction: column;
+  overflow: visible;
 }
 
-.nav
-.nav-right
+.nav .nav-right
 .nav-menu-contact, .nav-menu-itens {
   display: flex;
   justify-content: flex-end;
 }
 
-.nav
-.nav-right
-.nav-menu-contact
-.nav-item {
+.nav .nav-right
+.nav-menu-contact .nav-item {
   font-size: .9rem;
 }
 
-.nav
-.nav-right
-.nav-menu-itens
-.nav-item {
+.nav .nav-right
+.nav-menu-itens .nav-item {
   font-size: .9rem;
   text-transform: uppercase;
+}
+
+.nav-item a.is-tab.is-active,
+a.nav-item.is-tab.is-active {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.nav-item a.is-tab:hover,
+a.nav-item.is-tab:hover {
+  border-bottom-color: blue;
+  border-top-color: transparent;
+}
+
+.nav-item a.is-tab.is-active,
+a.nav-item.is-tab.is-active {
+  border-bottom: 3px solid blue;
+  color: blue;
+}
+
+.icon .fa-whatsapp {
+  color: green;
+}
+
+/**
+ * Alterações no banner principal da home
+ */
+.home .hero {
+  justify-content: flex-start;
+}
+.home .hero
+.body {
+  padding: 0;
+  align-items: flex-start;
+}
+
+.home .body
+figure {
+  position: relative;
+}
+
+.home .body
+figure figcaption {
+  position: absolute;
+  padding: 3rem;
+  bottom: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home .body
+figure figcaption
+.banner-menu {
+  width: 35em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home .body
+figure figcaption
+.banner-menu .item img {
+  align-self: center;
+  margin: 1rem;
+}
+
+.home .body
+figure figcaption
+.banner-menu .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home .hero
+.hero-footer {
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home .hero footer {
+  padding: .3rem;
+  background-color: blue;
+  color: white;
+}
+
+.home .hero
+.hero-footer .columns
+.column .button {
+  align-self: flex-start;
+}
+
+.home .hero
+.hero-footer .columns
+.column:not(:last-child) {
+  flex-direction: column;
+}
+
+.home .hero
+.hero-footer .columns
+.column:last-child {
+  justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home .hero
+.hero-footer .columns
+.column:last-child img {
+  margin: .5rem;
 }
