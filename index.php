@@ -5,36 +5,46 @@
     <?php get_template_part('components/nav', 'nav') ?>
   </div>
 
-  <div class="body">
-    <figure>
-      <img src="http://placehold.it/1920x500" alt="">
-      <figcaption class="is-fullwidth">
-        <h1 class="title is-2">
-          <span>Uma clínica completa</span> <br>
-          para o tratamento <br>
-          dos seus olhos
-        </h1>
-
-        <div class="banner-menu">
-          <div class="item has-text-centered">
-            <a href="#">
-              <img src="https://source.unsplash.com/random/150x150" alt="" class="is-round">
-            </a>
-            <h1 class="title is-4">Médicos</h1>
-            <h2 class="subtitle">Área restrira para profissionais</h2>
-          </div>
-          <div class="item has-text-centered">
-            <a href="#">
-              <img src="https://source.unsplash.com/random/150x150" alt="" class="is-round">
-            </a>
-            <h1 class="title is-4">Pré-agendamento</h1>
-            <h2 class="subtitle">Consultas e exames</h2>
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8-desktop">
+          <h1 class="title is-2">
+            <span>Uma clínica completa</span> <br>
+            para o tratamento <br>
+            dos seus olhos
+          </h1>
+        </div>
+        <div class="column">
+          <div class="columns">
+            <div class="column has-text-centered">
+              <figure>
+                <a href="#">
+                  <img src="<?= get_template_directory_uri(); ?>/assets/images/medico.png" alt="area medicos">
+                </a>
+                <figcaption>
+                  <h1 class="title is-4">Médicos</h1>
+                  <h2 class="subtitle">Área restrira para profissionais</h2>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="column has-text-centered">
+              <figure>
+                <a href="#">
+                  <img src="<?= get_template_directory_uri(); ?>/assets/images/agenda.png" alt="agendamento consulta">
+                </a>
+                <figcaption>
+                  <h1 class="title is-4">Pré-agendamento</h1>
+                  <h2 class="subtitle">Consultas e exames</h2>
+                </figcaption>
+              </figure>
+            </div>
           </div>
         </div>
-      </figcaption>
-    </figure>
+      </div>
+    </div>
   </div>
-  <div class="hero-footer">
+  <div class="hero-section">
     <div class="container">
       <div class="columns">
         <div class="column vertical-align">

@@ -83,52 +83,15 @@ a.nav-item.is-tab.is-active {
   justify-content: flex-start;
 }
 .home .hero
-.body {
-  padding: 0;
-  align-items: flex-start;
-}
-
-.home .body
-figure {
-  position: relative;
-}
-
-.home .body
-figure figcaption {
-  position: absolute;
-  padding: 3rem;
-  bottom: 15%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.home .body
-figure figcaption
-.banner-menu {
-  width: 35em;
-  display: flex;
-  justify-content: space-around;
-}
-
-.home .body
-figure figcaption
-.banner-menu .item img {
-  align-self: center;
-  margin: 1rem;
-}
-
-.home .body
-figure figcaption
-.banner-menu .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.hero-body {
+  background-image: url('assets/images/banner-home.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .home .hero
-.hero-footer {
+.hero-section {
   display: flex;
   flex: 1 0 auto;
   justify-content: space-around;
@@ -142,28 +105,27 @@ figure figcaption
 }
 
 .home .hero
-.hero-footer .columns
+.hero-section .columns
 .column .button {
   align-self: flex-start;
 }
 
 .home .hero
-.hero-footer .columns
+.hero-section .columns
 .column:not(:last-child) {
   flex-direction: column;
 }
 
 .home .hero
-.hero-footer .columns
+.hero-section .columns
 .column:last-child {
   justify-content: space-between;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .home .hero
-.hero-footer .columns
+.hero-section .columns
 .column:last-child img {
   margin: .5rem;
 }
