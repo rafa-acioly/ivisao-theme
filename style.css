@@ -25,6 +25,10 @@ License URI:        http://opensource.org/licenses/MIT
 .is-fullwidth {
   width: 100%;
 }
+
+a.is-info {
+  background-color: rgb(65, 114, 165); !important;
+}
 /**
  * Alteração de navbar
  */
@@ -56,20 +60,20 @@ License URI:        http://opensource.org/licenses/MIT
 
 .nav-item a.is-tab.is-active,
 a.nav-item.is-tab.is-active {
-  color: blue;
-  border-bottom: 3px solid blue;
+  color: #336699;
+  border-bottom: 3px solid #336699;
 }
 
 .nav-item a.is-tab:hover,
 a.nav-item.is-tab:hover {
-  border-bottom-color: blue;
+  border-bottom-color: #336699;
   border-top-color: transparent;
 }
 
 .nav-item a.is-tab.is-active,
 a.nav-item.is-tab.is-active {
-  border-bottom: 3px solid blue;
-  color: blue;
+  border-bottom: 3px solid #336699;
+  color: #336699;
 }
 
 .icon .fa-whatsapp {
@@ -82,12 +86,42 @@ a.nav-item.is-tab.is-active {
 .home .hero {
   justify-content: flex-start;
 }
+
 .home .hero
 .hero-body {
   background-image: url('assets/images/banner-home.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.home .hero
+.hero-body .container
+.columns .main-title .title {
+  color: white;
+}
+
+.home .hero
+.hero-body .container
+.columns .main-title .title
+span {
+  font-weight: bolder;
+}
+
+.home .hero
+.hero-body .columns
+.banner-menu .columns
+.column:first-child figure
+figcaption .title {
+  color: #8158a4;
+}
+
+.home .hero
+.hero-body .columns
+.banner-menu .columns
+.column:last-child figure
+figcaption .title {
+  color: #ef423e;
 }
 
 .home .hero
@@ -100,7 +134,7 @@ a.nav-item.is-tab.is-active {
 
 .home .hero footer {
   padding: .3rem;
-  background-color: blue;
+  background-color: rgb(40, 60, 97);
   color: white;
 }
 

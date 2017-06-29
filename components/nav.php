@@ -10,19 +10,19 @@
       <div class="nav-menu-contact">
         <div class="nav-item is-hidden-mobile">
           <span class="icon"><i class="fa fa-phone fa-fw"></i></span>
-          12 3846.7888
+          <a href="tel:+551238467888">12 3846.7888</a>
         </div>
         <div class="nav-item is-hidden-mobile">
           <span class="icon"><i class="fa fa-whatsapp fa-fw"></i></span>
-          12 99750.7888
+          <a href="tel:+5512997507888">12 99750.7888</a>
         </div>
         <div class="nav-item is-hidden-mobile">
           <span class="icon"><i class="fa fa-whatsapp fa-fw"></i></span>
-          12 99767.7888
+          <a href="tel:+5512997677888">12 99767.7888</a>
         </div>
         <div class="nav-item is-hidden-mobile">
           <span class="icon"><i class="fa fa-envelope fa-fw"></i></span>
-          contato@ivisaosjc.com.br
+          <a href="mailto:contato@ivisaosjc.com.br">contato@ivisaosjc.com.br</a>
         </div>
       </div>
       <div class="nav-menu-itens">

@@ -8,35 +8,35 @@
   <div class="hero-body">
     <div class="container">
       <div class="columns">
-        <div class="column is-8-desktop">
+        <div class="column is-8-desktop main-title">
           <h1 class="title is-2">
             <span>Uma clínica completa</span> <br>
             para o tratamento <br>
             dos seus olhos
           </h1>
         </div>
-        <div class="column">
+        <div class="column banner-menu">
           <div class="columns">
             <div class="column has-text-centered">
               <figure>
                 <a href="#">
                   <img src="<?= get_template_directory_uri(); ?>/assets/images/medico.png" alt="area medicos">
+                  <figcaption>
+                    <h1 class="title is-4">Médicos</h1>
+                    <h2 class="subtitle">Área restrira para profissionais</h2>
+                  </figcaption>
                 </a>
-                <figcaption>
-                  <h1 class="title is-4">Médicos</h1>
-                  <h2 class="subtitle">Área restrira para profissionais</h2>
-                </figcaption>
               </figure>
             </div>
             <div class="column has-text-centered">
               <figure>
                 <a href="#">
                   <img src="<?= get_template_directory_uri(); ?>/assets/images/agenda.png" alt="agendamento consulta">
+                  <figcaption>
+                    <h1 class="title is-4">Pré-agendamento</h1>
+                    <h2 class="subtitle">Consultas e exames</h2>
+                  </figcaption>
                 </a>
-                <figcaption>
-                  <h1 class="title is-4">Pré-agendamento</h1>
-                  <h2 class="subtitle">Consultas e exames</h2>
-                </figcaption>
               </figure>
             </div>
           </div>
