@@ -15,5 +15,32 @@ License URI:        http://opensource.org/licenses/MIT
  */
 
 .hero-nav .nav {
-  height: 4.25rem;
+  height: 5.25rem;
+}
+
+.nav
+.nav-right {
+  flex-direction: column;
+}
+
+.nav
+.nav-right
+.nav-menu-contact, .nav-menu-itens {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav
+.nav-right
+.nav-menu-contact
+.nav-item {
+  font-size: .9rem;
+}
+
+.nav
+.nav-right
+.nav-menu-itens
+.nav-item {
+  font-size: .9rem;
+  text-transform: uppercase;
 }
