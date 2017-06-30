@@ -1,0 +1,26 @@
+/**
+ * Fontes
+ */
+@font-face {
+  font-family: 'Museo';
+  src: url('../fonts/museosans-300-webfont.woff2') format('woff2'),
+      url('../fonts/museosans-300-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoBolder';
+  src: url('../fonts/museosans_900-webfont.woff2') format('woff2'),
+      url('../fonts/museosans_900-webfont.woff') format('woff');
+  font-weight: bolder;
+  font-style: bolder;
+}
+
+@font-face {
+  font-family: 'MuseoLight';
+  src: url('../fonts/museosans-100-webfont.woff2') format('woff2'),
+      url('../fonts/museosans-100-webfont.woff') format('woff');
+  font-weight: lighter;
+  font-style: lighter;
+}

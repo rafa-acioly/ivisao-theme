@@ -9,27 +9,11 @@ Text Domain:        F|Martins
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+@import url('assets/css/font-config.css');
 
 /**
- * Fontes
+ * Configurações diretas de HTML nativo
  */
-@font-face {
-  font-family: 'Museo'
-  src: url('assets/fonts/MuseoSans-300.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'MuseoLight'
-  src: url('assets/fonts/MuseoSans-100.otf') format('opentype');
-  font-weight: lighter;
-}
-
-@font-face {
-  font-family: 'MuseoBolder'
-  src: url('assets/fonts/MuseoSans-900.otf') format('opentype');
-  font-weight: bolder;
-}
-
 html, body {
   font-family: 'Museo', sans-serif;
 }
@@ -58,16 +42,32 @@ a.is-info {
   background-color: rgb(65, 114, 165); !important;
 }
 
+@media screen and (max-width: 768px) {
+  .has-text-centered-mobile {
+    text-align: center;
+  }
+}
+
 
 /**
  * Alteração de navbar
  */
+.nav-toggle {
+  margin-top: 3vh;
+}
+
 .hero-nav .nav {
   height: 6.25rem;
 }
 
 .hero-nav .nav .nav-item img {
-  max-height: 4.75rem;
+  max-height: 3.75rem;
+}
+
+@media screen and (max-width: 786px) {
+  .hero-nav .nav .nav-item img {
+    max-height: 2.75rem;
+  }
 }
 
 .nav .nav-right {
@@ -165,6 +165,14 @@ figcaption .title {
   flex: 1 0 auto;
   justify-content: space-around;
   align-items: center;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .home .hero
+  .hero-section {
+    margin-top: 2rem;
+  }
 }
 
 .home .hero footer {
@@ -188,13 +196,16 @@ figcaption .title {
 .home .hero
 .hero-section .columns
 .column:last-child {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.home .hero
-.hero-section .columns
-.column:last-child img {
-  margin: .5rem;
+@media screen and (max-width: 786px) {
+  .home .hero
+  .hero-section .columns
+  .column:last-child {
+    justify-content: flex-start;
+    margin: .5rem;
+  }
 }

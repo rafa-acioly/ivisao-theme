@@ -47,7 +47,7 @@
   <main class="hero-section">
     <div class="container">
       <div class="columns">
-        <div class="column vertical-align">
+        <div class="column vertical-align is-hidden-mobile">
           <h1 class="title is-4">
             A principal clinica para atendimentos <br>
             e procedimentos oftalmológicos <br>
@@ -55,7 +55,7 @@
           </h1>
           <a href="" class="button is-info">Clique e conheça mais</a>
         </div>
-        <div class="column has-text-right vertical-align">
+        <div class="column has-text-right has-text-centered-mobile vertical-align">
           <h1 class="title">Conviênios</h1>
         </div>
         <div class="column">
