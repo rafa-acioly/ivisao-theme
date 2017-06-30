@@ -47,7 +47,7 @@
   <main class="hero-section">
     <div class="container">
       <div class="columns">
-        <div class="column vertical-align is-hidden-mobile">
+        <div class="column vertical-align has-text-centered-mobile">
           <h1 class="title is-4">
             A principal clinica para atendimentos <br>
             e procedimentos oftalmológicos <br>
@@ -71,9 +71,7 @@
       </div>
     </div>
   </main>
-  <footer class="hero-foot has-text-centered">
-    <address>Avenida Tivoli - 279, Jd.Bethania - São José dos Campos</address>
-  </footer>
+  <?php get_template_part('components/hero', 'footer'); ?>
 </div>
 
 <?php get_footer(); ?>

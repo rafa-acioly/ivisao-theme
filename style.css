@@ -10,6 +10,7 @@ License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
 @import url('assets/css/font-config.css');
+@import url('assets/css/contato.css');
 
 /**
  * Configurações diretas de HTML nativo
@@ -163,6 +164,14 @@ span {
 .home .hero
 .hero-body .columns
 .banner-menu .columns
+.column figure
+figcaption .title {
+  font-family: 'MuseoBolder', sans-serif;
+}
+
+.home .hero
+.hero-body .columns
+.banner-menu .columns
 .column:first-child figure
 figcaption .title {
   color: #8158a4;
@@ -171,9 +180,25 @@ figcaption .title {
 .home .hero
 .hero-body .columns
 .banner-menu .columns
+.column:first-child figure
+figcaption .title + .subtitle {
+  color: gray;
+}
+
+.home .hero
+.hero-body .columns
+.banner-menu .columns
 .column:last-child figure
 figcaption .title {
   color: #ef423e;
+}
+
+.home .hero
+.hero-body .columns
+.banner-menu .columns
+.column:last-child figure
+figcaption .title + .subtitle {
+  color: gray;
 }
 
 .home .hero
