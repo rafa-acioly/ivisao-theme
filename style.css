@@ -22,6 +22,11 @@ html, body {
   font-weight: bolder;
 }
 
+.title + a.button {
+  border-radius: 100px;
+  font-weight: bold;
+}
+
 /**
  * Helpers
  */
@@ -49,9 +54,10 @@ a.is-info {
 }
 
 .is-bolder {
+  font-family: 'MuseoBlack', sans-serif;
   font-weight: 900;
+  text-transform: uppercase;
 }
-
 
 /**
  * Alteração de navbar
@@ -68,7 +74,7 @@ a.is-info {
   max-height: 3.75rem;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 768px) {
   .hero-nav .nav .nav-item img {
     max-height: 2.75rem;
   }
@@ -83,6 +89,12 @@ a.is-info {
 .nav-menu-contact, .nav-menu-itens {
   display: flex;
   justify-content: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .nav .nav-right .nav-menu-itens {
+    flex-direction: column;
+  }
 }
 
 .nav .nav-right
@@ -144,7 +156,8 @@ a.nav-item.is-tab.is-active {
 .hero-body .container
 .columns .main-title .title
 span {
-  font-weight: 900;
+  font-family: 'MuseoBolder', sans-serif;
+  font-weight: bolder;
 }
 
 .home .hero
@@ -205,7 +218,7 @@ figcaption .title {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 768px) {
   .home .hero
   .hero-section .columns
   .column:last-child {

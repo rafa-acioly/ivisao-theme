@@ -9,7 +9,7 @@
     <div class="container">
       <div class="columns">
         <div class="column is-8-desktop main-title">
-          <h1 class="title is-2">
+          <h1 class="title is-1">
             <span>Uma clínica completa</span> <br>
             para o tratamento <br>
             dos seus olhos
