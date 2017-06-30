@@ -56,7 +56,7 @@
           <a href="" class="button is-info">Clique e conheça mais</a>
         </div>
         <div class="column has-text-right has-text-centered-mobile vertical-align">
-          <h1 class="title">Conviênios</h1>
+          <h1 class="title is-bolder">Conviênios</h1>
         </div>
         <div class="column">
           <img src="http://placehold.it/90x90" alt="" class="is-round">

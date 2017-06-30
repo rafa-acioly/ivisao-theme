@@ -48,6 +48,10 @@ a.is-info {
   }
 }
 
+.is-bolder {
+  font-weight: 900;
+}
+
 
 /**
  * Alteração de navbar
