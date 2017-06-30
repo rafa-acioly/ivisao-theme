@@ -11,6 +11,34 @@ License URI:        http://opensource.org/licenses/MIT
 */
 
 /**
+ * Fontes
+ */
+@font-face {
+  font-family: 'Museo'
+  src: url('assets/fonts/MuseoSans-300.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MuseoLight'
+  src: url('assets/fonts/MuseoSans-100.otf') format('opentype');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: 'MuseoBolder'
+  src: url('assets/fonts/MuseoSans-900.otf') format('opentype');
+  font-weight: bolder;
+}
+
+html, body {
+  font-family: 'Museo', sans-serif;
+}
+
+.title span {
+  font-weight: bolder;
+}
+
+/**
  * Helpers
  */
 .is-round {
@@ -29,11 +57,17 @@ License URI:        http://opensource.org/licenses/MIT
 a.is-info {
   background-color: rgb(65, 114, 165); !important;
 }
+
+
 /**
  * Alteração de navbar
  */
 .hero-nav .nav {
   height: 6.25rem;
+}
+
+.hero-nav .nav .nav-item img {
+  max-height: 4.75rem;
 }
 
 .nav .nav-right {
@@ -62,6 +96,7 @@ a.is-info {
 a.nav-item.is-tab.is-active {
   color: #336699;
   border-bottom: 3px solid #336699;
+  font-weight: bolder;
 }
 
 .nav-item a.is-tab:hover,
@@ -105,7 +140,7 @@ a.nav-item.is-tab.is-active {
 .hero-body .container
 .columns .main-title .title
 span {
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .home .hero

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="nav-left">
       <div class="nav-item">
-        <img src="http://placehold.it/250x250" alt="">
+        <img src="<?= get_template_directory_uri(); ?>/assets/images/iv_logo_horizontal.png" alt="">
       </div>
     </div>
 
