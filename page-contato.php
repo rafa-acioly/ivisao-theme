@@ -16,38 +16,38 @@
           </p>
           <h2 class="title">Será um prazer falar com você.</h2>
 
-          <form class="" action="" method="post">
+          <form action="" method="post">
             <div class="field">
               <p class="control is-expanded">
-                <input type="text" class="input" placeholder="Nome">
+                <input name="nome" type="text" class="input" placeholder="Nome" required>
               </p>
             </div>
             <div class="field is-horizontal">
               <div class="field-body">
                 <div class="field is-grouped">
-                  <p class="control">
-                    <input type="text" class="input" placeholder="Telefone">
+                  <p class="control is-expanded">
+                    <input name="telefone" type="text" class="input" placeholder="Telefone" required>
                   </p>
                 </div>
                 <div class="field">
                   <p class="control is-expanded">
-                    <input type="email" class="input" placeholder="Email">
+                    <input name="email" type="email" class="input" placeholder="Email" required>
                   </p>
                 </div>
               </div>
             </div>
             <div class="field">
               <p class="control">
-                <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Mensagem"></textarea>
+                <textarea name="mensagem" cols="30" rows="10" class="textarea" placeholder="Mensagem" required></textarea>
               </p>
             </div>
-          </form>
-          <div class="field">
-            <p class="control">
-              <span>Funcionamento</span> Segunda a sexta | 07h00 às 19h00
+            <div class="field">
+              <p>
+                <span>Funcionamento:</span> Segunda a sexta | 07h00 às 19h00
+              </p>
               <button class="button is-info" type="submit">Enviar</button>
-            </p>
-          </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>

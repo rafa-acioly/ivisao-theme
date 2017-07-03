@@ -1,4 +1,48 @@
-.page-id-5 .hero
-.hero-body {
+.page-id-5 .hero .hero-body {
+  background-image: url('../images/background-contato.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.page-id-5 .hero .hero-body,
+.page-id-5 .hero .hero-body .title {
+  color: white;
+  font-family: 'MuseoLight', sans-serif;
+}
+
+.page-id-5 .hero .hero-body .title {
+  text-transform: uppercase;
+}
+
+.page-id-5 .hero .hero-body p:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.page-id-5 .hero .hero-body p span {
+  font-family: 'MuseoBolder', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.page-id-5 .hero .hero-body input, .textarea {
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.page-id-5 .hero .hero-body form > .field:last-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-id-5 .hero .hero-body .button {
+  background-color: white;
+  border-radius: 0;
+  color: #4172a5;
+  text-transform: uppercase;
+  height: 2rem;
+  vertical-align: baseline;
+}
+
+.page-id-5 .hero .hero-body input::placeholder, .textarea::placeholder {
   color: white;
 }

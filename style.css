@@ -68,7 +68,7 @@ a.is-info {
 }
 
 .hero-nav .nav {
-  height: 6.25rem;
+  height: 5.25rem;
 }
 
 .hero-nav .nav .nav-item img {
@@ -208,6 +208,7 @@ figcaption .title + .subtitle {
   justify-content: space-around;
   align-items: center;
   padding: 2rem;
+  color: #363636;
 }
 
 @media screen and (max-width: 768px) {
@@ -217,7 +218,7 @@ figcaption .title + .subtitle {
   }
 }
 
-.home .hero footer {
+.hero footer {
   padding: .3rem;
   background-color: rgb(40, 60, 97);
   color: white;

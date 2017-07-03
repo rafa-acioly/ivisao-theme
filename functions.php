@@ -5,7 +5,8 @@ add_theme_support( 'menus' );
 /**
  * Remove opções do dashboard principal
  */
- function clean_menu() {
+ function clean_menu()
+ {
   global $menu;
   global $submenu;
   unset($submenu['edit.php'][16]);
@@ -25,7 +26,8 @@ add_theme_support( 'menus' );
 /**
  * Remove opções do navbar do dashboard principal
  */
-function clean_bar() {
+function clean_bar()
+{
   global $wp_admin_bar;
   $wp_admin_bar->remove_menu('wp-logo');
   $wp_admin_bar->remove_menu('comments');
@@ -38,7 +40,8 @@ add_action( 'wp_before_admin_bar_render', 'clean_bar' );
 /**
  * Adiciona um menu no dashboard para inserir textos de paginas estaticas
  */
-function wpdocs_register_my_custom_menu_page() {
+function wpdocs_register_my_custom_menu_page()
+{
    add_menu_page(
       null,
       'Conteúdo Geral',
@@ -50,3 +53,19 @@ function wpdocs_register_my_custom_menu_page() {
   );
 }
 add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
+
+
+function createNavToggleMenu () {
+  global $post;
+  $menu = wp_get_nav_menu_items('mainMenu');
+  $slug = basename(get_permalink());
+
+  foreach ($menu as $item):
+    if (strtolower($item->title) === $slug) {
+      echo "<a href='{$item->url}' class='nav-item is-tab is-active'>{$item->title}</a>";
+    } else {
+      echo "<a href='{$item->url}' class='nav-item is-tab'>{$item->title}</a>";
+    }
+  endforeach;
+}
+add_action('createToggleActiveMenu', 'createNavToggleMenu');

@@ -2,7 +2,9 @@
   <div class="container">
     <div class="nav-left">
       <div class="nav-item">
-        <img src="<?= get_template_directory_uri(); ?>/assets/images/iv_logo_horizontal.png" alt="">
+        <a href="<?= get_home_url(); ?>">
+          <img src="<?= get_template_directory_uri(); ?>/assets/images/iv_logo_horizontal.png" alt="">
+        </a>
       </div>
     </div>
 
@@ -26,13 +28,15 @@
         </div>
       </div>
       <div class="nav-menu-itens">
+        <?= do_action('createToggleActiveMenu'); ?>
+        <!-- <a href="" class="nav-item is-tab">Pagina Inicial</a>
         <a class="nav-item is-tab">Empresas</a>
         <a class="nav-item is-tab">Exames</a>
         <a class="nav-item is-tab">Cirurgias</a>
         <a class="nav-item is-tab">Para Médicos</a>
         <a class="nav-item is-tab">Corpo Clínico</a>
         <a class="nav-item is-tab">Contato</a>
-        <a class="nav-item is-tab">Pré-agendamento</a>
+        <a class="nav-item is-tab">Pré-agendamento</a> -->
       </div>
     </div>
 
