@@ -10,7 +10,9 @@ License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
 @import url('assets/css/font-config.css');
+@import url('assets/css/perfil-medico.css');
 @import url('assets/css/contato.css');
+@import url('assets/css/footer.css');
 
 /**
  * Configurações diretas de HTML nativo
@@ -67,11 +69,11 @@ a.is-info {
   margin-top: 3vh;
 }
 
-.hero-nav .nav {
+.nav {
   height: 5.25rem;
 }
 
-.hero-nav .nav .nav-item img {
+.nav .nav-item img {
   max-height: 3.75rem;
 }
 

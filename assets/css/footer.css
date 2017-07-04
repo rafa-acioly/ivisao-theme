@@ -1,0 +1,18 @@
+.footer .container .columns .column li.page_item {
+  list-style: none;
+}
+
+.footer .container .columns .column,
+.footer .container .columns .column .title,
+.footer .container .columns .column li.page_item a {
+  color: #143b63
+}
+
+.footer .container .columns .column .title {
+  font-family: 'MuseoBolder', sans-serif;
+  text-transform: uppercase;
+}
+
+.footer .container .columns .column address {
+  font-style: normal;
+}

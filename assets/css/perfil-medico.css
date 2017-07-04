@@ -1,0 +1,26 @@
+.single-perfil_medico main .section {
+  background-color: #4172a5;
+}
+
+.single-perfil_medico main .section > .title {
+  margin-bottom: 4rem;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+}
+
+.single-perfil_medico main .section .title {
+  color: white;
+}
+
+.single-perfil_medico main .section .columns .column,
+.single-perfil_medico main .section .columns .column .title {
+  color: white;
+}
+
+.single-perfil_medico main .section .columns .column .title {
+  font-family: 'MuseoBolder', sans-serif;
+}
+
+.single-perfil_medico main .section .columns .column .profile-pic img {
+  border-radius: 100%;
+}

@@ -73,5 +73,5 @@
   </main>
   <?php get_template_part('components/hero', 'footer'); ?>
 </div>
-
-<?php get_footer(); ?>
+</body>
+</html>
