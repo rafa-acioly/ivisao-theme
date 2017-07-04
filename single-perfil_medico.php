@@ -13,20 +13,18 @@
     <h1 class="title">Corpo clínico - Perfil Médico</h1>
     <div class="columns is-paddingless">
       <?php while (have_posts()) : the_post(); ?>
-      <div class="column is-9 is-offset-1">
-        <article class="columns content">
-          <div class="column is-4 is-offset-2 has-text-centered profile-pic">
-            <?php the_post_thumbnail('medium'); ?>
-          </div>
-          <div class="column has-text-left">
-            <header>
+        <div class="column is-9 is-offset-1">
+          <article class="columns content">
+            <div class="column is-4 is-offset-2 has-text-centered profile-pic">
+              <?php the_post_thumbnail('medium'); ?>
+            </div>
+            <div class="column has-text-left">
               <h1 class="title"><?php the_title(); ?></h1>
-            </header>
-            <?php the_content(); ?>
-          </div>
-        </article>
-      </div>
-    <?php endwhile; ?>
+              <?php the_content(); ?>
+            </div>
+          </article>
+        </div>
+      <?php endwhile; ?>
     </div>
   </div>
 </main>
