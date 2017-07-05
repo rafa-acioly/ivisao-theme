@@ -4,6 +4,9 @@
 ?>
 
 <?php while(have_posts()) : the_post(); ?>
-	<h1><?= the_title(); ?></h1>
-	<p><?= the_content(); ?></p>
+	<div class="column has-text-centered">
+		<figure>
+			<?php the_post_thumbnail('thumbnail'); ?>
+		</figure>
+	</div>
 <?php endwhile; ?>
