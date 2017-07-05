@@ -11,6 +11,27 @@
   color: #143b63
 }
 
+.footer .container .columns .column:first-child {
+	border-right: 2px solid #143b63;
+}
+
+.footer .container .columns .location-info p:not(:last-child),
+.footer .container .columns .location-info address {
+	margin-bottom: 1rem;
+}
+
+.footer .container .columns .location-info {
+	padding: 0 4rem;
+}
+
+.footer .container .columns .location-info span {
+	font-weight: 900;
+}
+
+.footer .container .columns .location-info .title span {
+	font-family: 'MuseoLight', sans-serif;
+}
+
 .footer .container .columns .column .title {
   font-family: 'MuseoBolder', sans-serif;
   text-transform: uppercase;

@@ -9,6 +9,7 @@ Text Domain:        F|Martins
 License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
+@charset "UTF-8";
 @import url('assets/css/font-config.css');
 @import url('assets/css/perfil-medico.css');
 @import url('assets/css/contato.css');
