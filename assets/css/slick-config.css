@@ -1,0 +1,42 @@
+.slick-item {
+  z-index: 1;
+}
+
+.slick-slide {
+	height: auto !important;
+}
+
+.slick-background {
+  background-color: #4172a5;
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.slick-prev, .slick-next {
+  background-color: white;
+}
+
+.slick-slide figure {
+  display: flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slick-slide figure img {
+  align-self: center;
+}
+
+.slick-slide img {
+	border-radius: 100%;
+}
+
+.slick-slide figure figcaption {
+  margin-top: 1rem;
+  color: white;
+  font-family: 'MuseoBolder', sans-serif;
+}

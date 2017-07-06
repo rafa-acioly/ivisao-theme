@@ -1,0 +1,9 @@
+#corpo-clinico .hero-body .content .title {
+	font-family: 'MuseoLight', sans-serif;
+	color: #4172a5;
+	text-transform: uppercase;
+}
+
+#corpo-clinico .hero-body {
+	background-color: #eae7e6;
+}

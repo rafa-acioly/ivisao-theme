@@ -4,9 +4,12 @@
 ?>
 
 <?php while(have_posts()) : the_post(); ?>
-	<div class="column has-text-centered">
-		<figure>
-			<?php the_post_thumbnail('thumbnail'); ?>
+	<div class="column">
+		<figure class="has-text-centered">
+			<?php the_post_thumbnail(array(250, 250)); ?>
+			<figcaption>
+				<?php the_title(); ?>
+			</figcaption>
 		</figure>
 	</div>
 <?php endwhile; ?>

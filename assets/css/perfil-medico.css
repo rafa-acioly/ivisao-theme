@@ -2,15 +2,6 @@
  * Arquivo para configuração de CSS de Custom Post Type
  * do tipo "perfil_medico".
  */
-
-.slick-slide {
-	height: auto !important;
-}
-
-.slick-slide img {
-	border-radius: 100%;
-}
-
 .single-perfil_medico main .section {
   background-color: #4172a5;
 }

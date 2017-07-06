@@ -10,9 +10,34 @@ License:            MIT License
 License URI:        http://opensource.org/licenses/MIT
 */
 @charset "UTF-8";
+/**
+ * Configuraão de fontes
+ */
 @import url('assets/css/font-config.css');
+
+/**
+ * Configuração de slider
+ */
+@import url('assets/css/slick-config.css');
+
+/**
+ * Configuração de pagina "perfil médico"
+ */
 @import url('assets/css/perfil-medico.css');
+
+/**
+ * Configuração de pagina "corpo clinico"
+ */
+@import url('assets/css/corpo-clinico.css');
+
+/**
+ * Configuração de pagina contato
+ */
 @import url('assets/css/contato.css');
+
+/**
+ * Configuração de footer das paginas
+ */
 @import url('assets/css/footer.css');
 
 /**
@@ -29,6 +54,14 @@ html, body {
 .title + a.button {
   border-radius: 100px;
   font-weight: bold;
+}
+
+.hero .hero-foot {
+  z-index: 1;
+}
+
+.hero .hero-foot address {
+  font-style: normal;
 }
 
 /**
