@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="hero is-fullheight">
+<div class="hero is-fullheight" id="page-contato">
   <div class="hero-nav">
     <?php get_template_part('components/nav', 'nav'); ?>
   </div>

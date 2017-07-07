@@ -321,6 +321,12 @@ figcaption .title + .subtitle {
 }
 
 
+/**
+ * Configuração de cores que servem de suporte para caixas,
+ * as cores são aplicadas abaixo de cada caixa usando como "border-bottom".
+ * A propriedade border-bottom não aceita cores que não usem o 
+ * estilo degrade, por isso a criação desdas divs
+ */
 .hero-body .columns .color-group {
   display: flex;
   padding: 0;
