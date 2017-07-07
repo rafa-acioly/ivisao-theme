@@ -291,6 +291,12 @@ figcaption .title + .subtitle {
 
 .home .hero
 .hero-section .columns
+.column > .button {
+  background-color: #283C61;
+}
+
+.home .hero
+.hero-section .columns
 .column:last-child {
   display: flex;
   flex-wrap: wrap;
@@ -301,13 +307,21 @@ figcaption .title + .subtitle {
 .column > .image-container {
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
 }
 
 .home .hero
 .hero-section .container .columns
 .column > .image-container img {
-  margin: 0 .2rem;
+  /*margin: 0 .2rem;*/
   align-self: center;
+  filter: grayscale(100%);
+}
+
+.home .hero
+.hero-section .container .columns
+.column > .image-container img:hover {
+  filter: grayscale(0%);
 }
 
 

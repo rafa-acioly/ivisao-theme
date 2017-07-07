@@ -8,11 +8,9 @@
   <section class="hero-body">
     <div class="container">
       <div class="columns">
-        <div class="column is-8-desktop main-title">
-          <h1 class="title is-1">
-            <span>Uma clínica completa</span> <br>
-            para o tratamento <br>
-            dos seus olhos
+        <div class="column main-title has-text-centered">
+          <h1 class="title is-3">
+            <span>Uma clínica completa</span> para o tratamento dos seus olhos
           </h1>
         </div>
         <!-- <div class="column banner-menu">
@@ -48,17 +46,17 @@
     <div class="container">
       <div class="columns">
 
-        <div class="column vertical-align has-text-centered-mobile is-4">
-          <h1 class="title is-4">
-            A principal clinica para atendimentos <br>
-            e procedimentos oftalmológicos <br>
+        <div class="column vertical-align has-text-centered-mobile is-3">
+          <h1 class="title is-5">
+            A principal clinica para atendimentos
+            e procedimentos oftalmológicos
             na região do Vale do Paraíba.
           </h1>
           <a href="<?= get_permalink( get_page_by_path( 'historia' ) ); ?>" class="button is-info">Clique e conheça mais</a>
         </div>
 
         <div class="column has-text-centered-mobile">
-          <h1 class="title is-bolder">Convênios</h1>
+          <h1 class="title is-bolder is-4">Convênios</h1>
 
           <div class="image-container">
             <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-01.jpg" alt=""></figure>
