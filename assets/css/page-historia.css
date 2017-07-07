@@ -10,14 +10,15 @@
 }
 
 #page-historia .hero-body .columns {
+	flex-direction: column;
 	margin-bottom: 0;
-	flex-direction: flex-start;
 }
 
-#page-historia .columns .column {
-	padding: 2rem;
-	padding-top: 3.5rem;
+#page-historia .columns .column:not(.color-group) {
+	padding: 3.5rem 2rem 0 2rem;
 	background-color: white;
+	margin-bottom: 0;
+	flex: 1 0 auto;
 }
 #page-historia .columns .column h1 {
 	font-family: 'MuseoLight', sans-serif;

@@ -1,0 +1,26 @@
+#page-missao .hero-body {
+	background: url('../images/background-missao.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#page-missao .hero-body .columns {
+	flex-direction: column;
+}
+
+#page-missao .hero-body .columns .column:not(.color-group) {
+	background-color: #1d6995;
+	padding: 3rem;
+	margin-bottom: 0;
+}
+
+
+#page-missao .hero-body .columns .column h1 {
+	text-transform: uppercase;
+	font-family: 'MuseoLight', sans-serif;
+}
+
+#page-missao .hero-body .columns .column h1,
+#page-missao .hero-body .columns .column p {
+	color: white;
+}

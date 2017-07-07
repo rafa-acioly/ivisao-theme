@@ -36,6 +36,11 @@ License URI:        http://opensource.org/licenses/MIT
 @import url('assets/css/page-historia.css');
 
 /**
+ * Configuração responsavel pela pagina "Missão"
+ */
+@import url('assets/css/page-missao.css');
+
+/**
  * Configuração de pagina contato
  */
 @import url('assets/css/contato.css');
@@ -313,4 +318,30 @@ figcaption .title + .subtitle {
     justify-content: flex-start;
     margin: .5rem;
   }
+}
+
+
+.hero-body .columns .color-group {
+  display: flex;
+  padding: 0;
+}
+
+.hero-body .columns .color-group div[class^="color-"] {
+  flex-basis: 25%;
+}
+
+.hero-body .columns .color-group .color-1 {
+  border: 3px solid #0074a8;
+}
+
+.hero-body .columns .color-group .color-2 {
+  border: 3px solid #fbb040;
+}
+
+.hero-body .columns .color-group .color-3 {
+  border: 3px solid #7c51a1;
+}
+
+.hero-body .columns .color-group .color-4 {
+  border: 3px solid #ef413d;
 }
