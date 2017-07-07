@@ -47,7 +47,8 @@
   <main class="hero-section">
     <div class="container">
       <div class="columns">
-        <div class="column vertical-align has-text-centered-mobile">
+
+        <div class="column vertical-align has-text-centered-mobile is-4">
           <h1 class="title is-4">
             A principal clinica para atendimentos <br>
             e procedimentos oftalmológicos <br>
@@ -55,18 +56,29 @@
           </h1>
           <a href="" class="button is-info">Clique e conheça mais</a>
         </div>
-        <div class="column has-text-right has-text-centered-mobile vertical-align">
+
+        <div class="column has-text-centered-mobile">
           <h1 class="title is-bolder">Convênios</h1>
-        </div>
-        <div class="column">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-01.jpg" alt="">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-02.jpg" alt="">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-03.jpg" alt="">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-04.jpg" alt="">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-05.jpg" alt="">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-06.jpg" alt="">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-07.jpg" alt="">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-08.jpg" alt="">
+
+          <div class="image-container">
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-01.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-02.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-03.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-04.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-05.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-06.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-07.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-08.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-09.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-10.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-11.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-12.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-13.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-14.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-15.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-16.jpg" alt=""></figure>
+            <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-17.jpg" alt=""></figure>
+          </div>
         </div>
       </div>
     </div>

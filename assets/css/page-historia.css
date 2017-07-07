@@ -1,0 +1,34 @@
+#page-historia .hero-body {
+	background: url('../images/background-historia.jpg') no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#page-historia .hero-body {
+	padding: 0;
+	align-items: stretch;
+}
+
+#page-historia .hero-body .columns {
+	margin-bottom: 0;
+	flex-direction: flex-start;
+}
+
+#page-historia .columns .column {
+	padding: 2rem;
+	padding-top: 3.5rem;
+	background-color: white;
+}
+#page-historia .columns .column h1 {
+	font-family: 'MuseoLight', sans-serif;
+}
+
+#page-historia .columns .column h3 {
+	font-family: 'MuseoBolder', sans-serif;
+}
+
+#page-historia .columns .column h1,
+#page-historia .columns .column h3 {
+	text-transform: uppercase;
+	color: #0074a8;
+}

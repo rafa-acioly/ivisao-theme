@@ -31,6 +31,11 @@ License URI:        http://opensource.org/licenses/MIT
 @import url('assets/css/corpo-clinico.css');
 
 /**
+ * Configuração responsavel pela pagina "História"
+ */
+@import url('assets/css/page-historia.css');
+
+/**
  * Configuração de pagina contato
  */
 @import url('assets/css/contato.css');
@@ -266,9 +271,16 @@ figcaption .title + .subtitle {
   align-self: flex-start;
 }
 
-.home .hero
+/*.home .hero
 .hero-section .columns
 .column:not(:last-child) {
+  flex-direction: column;
+}*/
+
+.home .hero
+.hero-section .columns
+.column {
+  display: flex;
   flex-direction: column;
 }
 
@@ -276,9 +288,23 @@ figcaption .title + .subtitle {
 .hero-section .columns
 .column:last-child {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.home .hero
+.hero-section .container .columns
+.column > .image-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.home .hero
+.hero-section .container .columns
+.column > .image-container img {
+  margin: 0 .2rem;
+  align-self: center;
+}
+
 
 @media screen and (max-width: 768px) {
   .home .hero
