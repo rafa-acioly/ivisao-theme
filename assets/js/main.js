@@ -1,10 +1,16 @@
 $(document).ready(function () {
 
+  /**
+   * Adiciona a interação com menu hamburguer em dispositivos mobile
+   */
   $('.nav-toggle').on('click', function () {
     $(this).toggleClass("is-active");
     $('.nav-right').toggleClass('is-active');
   });
 
+  /**
+   * Configura o slide para exibição de fotos dos médicos
+   */
   $('.slick-item').slick({
     arrows: true,
     infinite: true,
@@ -19,8 +25,12 @@ $(document).ready(function () {
     }
   });
 
-  var element = $('.slick-slider');
-      offset = element.offset().top,
-      inner = element.height() / 2;
-  $('.slick-background').css('height', offset)
+  /**
+   * Define a altura do background que passa por traz
+   * das fotos dos médicos
+   */
+  var windowHeight = $(window).height(),
+      halfButton = $('.slick-arrow').height() / 2,
+      distance = $('.slick-arrow').offset().top;
+  $('.slick-background').css('height', (windowHeight - distance) - halfButton);
 });

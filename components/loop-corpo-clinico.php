@@ -6,7 +6,7 @@
 <?php while(have_posts()) : the_post(); ?>
 	<div class="column">
 		<figure class="has-text-centered">
-			<?php the_post_thumbnail(array(250, 250)); ?>
+			<?php the_post_thumbnail(array(200, 200)); ?>
 			<figcaption>
 				<?php the_title(); ?>
 			</figcaption>
