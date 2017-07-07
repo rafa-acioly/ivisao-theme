@@ -1,40 +1,40 @@
-#page-contato .hero .hero-body {
+#page-contato .hero-body {
   background-image: url('../images/background-contato.png');
   background-size: cover;
   background-position: center center;
 }
 
-#page-contato .hero .hero-body,
-#page-contato .hero .hero-body .title {
+#page-contato .hero-body,
+#page-contato .hero-body .title {
   color: white;
   font-family: 'MuseoLight', sans-serif;
 }
 
-#page-contato .hero .hero-body .title {
+#page-contato .hero-body .title {
   text-transform: uppercase;
 }
 
-#page-contato .hero .hero-body p:not(:last-child) {
+#page-contato .hero-body p:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-#page-contato .hero .hero-body p span {
+#page-contato .hero-body p span {
   font-family: 'MuseoBolder', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
 
-#page-contato .hero .hero-body input, .textarea {
+#page-contato .hero-body input, .textarea {
   background-color: transparent;
   border-radius: 0;
 }
 
-#page-contato .hero .hero-body form > .field:last-child {
+#page-contato .hero-body form > .field:last-child {
   display: flex;
   justify-content: space-between;
 }
 
-#page-contato .hero .hero-body .button {
+#page-contato .hero-body .button {
   background-color: white;
   border-radius: 0;
   color: #4172a5;
@@ -43,6 +43,6 @@
   vertical-align: baseline;
 }
 
-#page-contato .hero .hero-body input::placeholder, .textarea::placeholder {
+#page-contato .hero-body input::placeholder, .textarea::placeholder {
   color: white;
 }
