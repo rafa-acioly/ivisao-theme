@@ -69,7 +69,7 @@ function createNavToggleMenu ()
   $slug = basename(get_permalink());
 
   foreach ($menu as $item):
-    if (strtolower($item->title) === $slug) {
+    if (sanitize_title( strtolower($item->title) ) === $slug) {
       echo "<a href='{$item->url}' class='nav-item is-tab is-active'>{$item->title}</a>";
     } else {
       echo "<a href='{$item->url}' class='nav-item is-tab'>{$item->title}</a>";
