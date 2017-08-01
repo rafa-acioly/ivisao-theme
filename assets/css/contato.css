@@ -4,45 +4,28 @@
   background-position: center center;
 }
 
-#page-contato .hero-body,
-#page-contato .hero-body .title {
-  color: white;
-  font-family: 'MuseoLight', sans-serif;
+#page-contato .hero-body .columns {
+	flex-direction: column;
 }
 
-#page-contato .hero-body .title {
-  text-transform: uppercase;
+#page-contato .hero-body .columns .columns form {
+  margin-bottom: 0 !important;
 }
 
-#page-contato .hero-body p:not(:last-child) {
-  margin-bottom: 1rem;
+#page-contato .hero-body .columns .column:not(.color-group) {
+	background-color: rgba(29, 105, 149, .9);
+	padding: 2rem;
+	margin-bottom: 0;
 }
 
-#page-contato .hero-body p span {
-  font-family: 'MuseoBolder', sans-serif;
-  font-weight: 900;
-  text-transform: uppercase;
+
+#page-contato .hero-body .columns .column h1 {
+	text-transform: uppercase;
+	font-family: 'MuseoLight', sans-serif;
 }
 
-#page-contato .hero-body input, .textarea {
-  background-color: transparent;
-  border-radius: 0;
-}
-
-#page-contato .hero-body form > .field:last-child {
-  display: flex;
-  justify-content: space-between;
-}
-
-#page-contato .hero-body .button {
-  background-color: white;
-  border-radius: 0;
-  color: #4172a5;
-  text-transform: uppercase;
-  height: 2rem;
-  vertical-align: baseline;
-}
-
-#page-contato .hero-body input::placeholder, .textarea::placeholder {
-  color: white;
+#page-contato .hero-body .columns .column h1,
+#page-contato .hero-body .columns .column h2,
+#page-contato .hero-body .columns .column p {
+	color: white;
 }

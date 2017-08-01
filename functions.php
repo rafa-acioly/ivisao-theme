@@ -63,7 +63,7 @@ function wpdocs_register_my_custom_menu_page()
 add_action( 'admin_menu', 'wpdocs_register_my_custom_menu_page' );
 
 
-function createNavToggleMenu () 
+function createNavToggleMenu ()
 {
   $menu = wp_get_nav_menu_items('mainMenu');
   $slug = basename(get_permalink());

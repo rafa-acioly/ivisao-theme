@@ -9,7 +9,7 @@
 }
 
 #page-missao .hero-body .columns .column:not(.color-group) {
-	background-color: #1d6995;
+	background-color: rgba(29, 105, 149, .9);
 	padding: 3rem;
 	margin-bottom: 0;
 }

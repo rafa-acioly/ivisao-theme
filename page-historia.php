@@ -5,17 +5,19 @@
 	</div>
 
 	<div class="hero-body">
-		<div class="columns">
-			<div class="column is-5 is-offset-6 content">
-				<?php while(have_posts()) : the_post(); ?>
-					<?php the_content(); ?>
-				<?php endwhile; ?>
-			</div>
-			<div class="column color-group is-5 is-offset-6">
-				<div class="color-1"></div>
-				<div class="color-2"></div>
-				<div class="color-3"></div>
-				<div class="color-4"></div>
+		<div class="container">
+			<div class="columns">
+				<div class="column is-7 is-offset-1 content">
+					<?php while(have_posts()) : the_post(); ?>
+						<?php the_content(); ?>
+					<?php endwhile; ?>
+				</div>
+				<div class="column color-group is-7 is-offset-1">
+					<div class="color-1"></div>
+					<div class="color-2"></div>
+					<div class="color-3"></div>
+					<div class="color-4"></div>
+				</div>
 			</div>
 		</div>
 	</div>

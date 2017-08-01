@@ -5,14 +5,12 @@
   </div>
 
   <div class="hero-body">
-    <div class="container">
+		<div class="container">
       <div class="columns">
-        <div class="column is-offset-6">
+        <div class="column is-6 is-offset-1 content">
           <h1 class="title is-spaced">Contato</h1>
           <p class="is-spaced">
-            Entre em contato com o <br>
-            Instituto da Visão para tirar dúvidas, <br>
-            dar sugestões ou solicitar informações.
+            Entre em contato com o Instituto da Visão para tirar dúvidas, dar sugestões ou solicitar informações.
           </p>
           <h2 class="title">Será um prazer falar com você.</h2>
 
@@ -49,9 +47,15 @@
             </div>
           </form>
         </div>
+        <div class="column is-6 is-offset-1 color-group">
+          <div class="color-1"></div>
+          <div class="color-2"></div>
+          <div class="color-3"></div>
+          <div class="color-4"></div>
+        </div>
       </div>
     </div>
-  </div>
+	</div>
 
   <?php get_template_part('components/hero', 'footer'); ?>
 </div>

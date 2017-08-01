@@ -4,32 +4,25 @@
 	background-position: center center;
 }
 
-#page-historia .hero-body {
-	padding: 0;
-	align-items: stretch;
-}
 
 #page-historia .hero-body .columns {
 	flex-direction: column;
+}
+
+#page-historia .hero-body .columns .column:not(.color-group) {
+	background-color: rgba(29, 105, 149, .9);
+	padding: 3rem;
 	margin-bottom: 0;
 }
 
-#page-historia .columns .column:not(.color-group) {
-	padding: 3.5rem 2rem 0 2rem;
-	background-color: white;
-	margin-bottom: 0;
-	flex: 1 0 auto;
-}
-#page-historia .columns .column h1 {
+
+#page-historia .hero-body .columns .column h1 {
+	text-transform: uppercase;
 	font-family: 'MuseoLight', sans-serif;
 }
 
-#page-historia .columns .column h3 {
-	font-family: 'MuseoBolder', sans-serif;
-}
-
-#page-historia .columns .column h1,
-#page-historia .columns .column h3 {
-	text-transform: uppercase;
-	color: #0074a8;
+#page-historia .hero-body .columns .column h1,
+#page-historia .hero-body .columns .column h3,
+#page-historia .hero-body .columns .column p {
+	color: white;
 }
