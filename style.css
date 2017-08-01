@@ -298,6 +298,31 @@ figcaption .title + .subtitle {
   flex-direction: column;
 }
 
+.home .color-group {
+  display: flex;
+  height: 5px;
+}
+
+.home .color-group div[class^="color-"] {
+  flex-basis: 25%;
+}
+
+.home .color-group .color-1 {
+  border: 3px solid #0074a8;
+}
+
+.home .color-group .color-2 {
+  border: 3px solid #fbb040;
+}
+
+.home .color-group .color-3 {
+  border: 3px solid #7c51a1;
+}
+
+.home .color-group .color-4 {
+  border: 3px solid #ef413d;
+}
+
 .home .hero
 .hero-section .columns
 .column > .button {

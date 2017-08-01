@@ -40,8 +40,13 @@
           </div>
         </div> -->
       </div>
-    </div>
   </section>
+  <div class="color-group">
+    <div class="color-1"></div>
+    <div class="color-2"></div>
+    <div class="color-3"></div>
+    <div class="color-4"></div>
+  </div>
   <main class="hero-section">
     <div class="container">
       <div class="columns">

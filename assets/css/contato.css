@@ -12,6 +12,14 @@
   margin-bottom: 0 !important;
 }
 
+#page-content .hero-body .container .columns .column form .field > button {
+	background-color: #3293cb;
+}
+
+#page-content .hero-body .container .columns .column form .field > button:hover {
+	background-color: #184c6a;
+}
+
 #page-contato .hero-body .columns .column:not(.color-group) {
 	background-color: rgba(29, 105, 149, .9);
 	padding: 2rem;

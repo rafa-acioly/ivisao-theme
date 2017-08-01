@@ -36,14 +36,14 @@
             </div>
             <div class="field">
               <p class="control">
-                <textarea name="mensagem" cols="30" rows="10" class="textarea" placeholder="Mensagem" required></textarea>
+                <textarea name="mensagem" cols="10" rows="5" class="textarea" placeholder="Mensagem" required></textarea>
               </p>
             </div>
             <div class="field">
               <p>
                 <span>Funcionamento:</span> Segunda a sexta | 07h00 às 19h00
               </p>
-              <button class="button is-info" type="submit">Enviar</button>
+              <button class="button" type="submit">Enviar</button>
             </div>
           </form>
         </div>
