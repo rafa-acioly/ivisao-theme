@@ -46,19 +46,19 @@
     <div class="container">
       <div class="columns">
 
-        <div class="column vertical-align has-text-centered-mobile is-3">
+        <div class="column vertical-align has-text-centered-mobile is-5">
           <h1 class="title is-5">
             A principal clinica para atendimentos
             e procedimentos oftalmológicos
             na região do Vale do Paraíba.
           </h1>
-          <a href="<?= get_permalink( get_page_by_path( 'historia' ) ); ?>" class="button is-info">Clique e conheça mais</a>
+          <a href="<?= get_permalink( get_page_by_path( 'historia' ) ); ?>" class="button is-info is-default">Clique e conheça mais</a>
         </div>
 
-        <div class="column has-text-centered-mobile">
-          <h1 class="title is-bolder is-4">Convênios</h1>
+        <div class="column has-text-centered-mobile is-6">
+          <h1 class="title is-bolder is-4 is-default">Convênios</h1>
 
-          <div class="image-container">
+          <div class="image-container slick-convenios">
             <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-01.jpg" alt=""></figure>
             <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-02.jpg" alt=""></figure>
             <figure><img src="<?= get_template_directory_uri(); ?>/assets/images/convenios/IDV_LOGOS_CONVENIO_90X90P-03.jpg" alt=""></figure>

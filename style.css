@@ -61,9 +61,17 @@ html, body {
   font-weight: bolder;
 }
 
+.title.is-default {
+  color: #0074A8;
+}
+
 .title + a.button {
   border-radius: 100px;
   font-weight: bold;
+}
+
+.title + a.button.is-default {
+  background-color: #0074A8 !important;
 }
 
 .hero .hero-foot {
@@ -91,7 +99,7 @@ html, body {
 }
 
 a.is-info {
-  background-color: rgb(65, 114, 165); !important;
+  background-color: rgb(65, 114, 165) !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -101,7 +109,7 @@ a.is-info {
 }
 
 .is-bolder {
-  font-family: 'MuseoBlack', sans-serif;
+  font-family: 'MuseoBolder', sans-serif;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -114,7 +122,7 @@ a.is-info {
 }
 
 .nav {
-  height: 5.25rem;
+  height: 4.25rem;
 }
 
 .nav .nav-item img {
@@ -191,6 +199,7 @@ a.nav-item.is-tab.is-active {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  height: 53vh;
 }
 
 .home .hero
@@ -304,24 +313,22 @@ figcaption .title + .subtitle {
 
 .home .hero
 .hero-section .container .columns
-.column > .image-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+.column > .slick-convenios figure {
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .home .hero
 .hero-section .container .columns
-.column > .image-container img {
+.column > .slick-convenios img {
   /*margin: 0 .2rem;*/
-  align-self: center;
-  filter: grayscale(100%);
+  filter: grayscale(100%); 
 }
 
 .home .hero
 .hero-section .container .columns
-.column > .image-container img:hover {
-  filter: grayscale(0%);
+.column > .slick-convenios img:hover {
+   filter: grayscale(0%); 
 }
 
 

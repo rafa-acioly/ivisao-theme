@@ -25,12 +25,26 @@ $(document).ready(function () {
     }
   });
 
+  $('.slick-convenios').slick({
+    arrows: false,
+    infinite: true,
+  	adaptiveHeight: true,
+  	autoplay: true,
+  	autoplaySpeed: 2000,
+  	slidesPerRow: 2,
+  	slidesToShow: 5,
+    variableWidth: true,
+    getSlick: function (slicks) {
+      console.log(slicks);
+    }
+  });
+
   /**
    * Define a altura do background que passa por traz
    * das fotos dos médicos
    */
-  var windowHeight = $(window).height(),
-      halfButton = $('.slick-arrow').height() / 2,
-      distance = $('.slick-arrow').offset().top;
-  $('.slick-background').css('height', (windowHeight - distance) - halfButton);
+  // var windowHeight = $(window).height(),
+  //     halfButton = $('.slick-arrow').height() / 2,
+  //     distance = $('.slick-arrow').offset().top;
+  // $('.slick-background').css('height', (windowHeight - distance) - halfButton);
 });
