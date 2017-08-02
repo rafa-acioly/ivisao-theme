@@ -10,7 +10,7 @@
       <div class="columns">
         <div class="column main-title has-text-centered">
           <h1 class="title is-3">
-            <span>Uma clínica completa</span> para o tratamento dos seus olhos
+            <!-- <span>Uma clínica completa</span> para o tratamento dos seus olhos -->
           </h1>
         </div>
         <!-- <div class="column banner-menu">
