@@ -5,15 +5,16 @@
     <?php get_template_part('components/nav', 'nav') ?>
   </div>
 
-  <section class="hero-body">
-    <div class="container">
+  <section>
+    <img src="<?= get_template_directory_uri(); ?>/assets/images/IV_SITE_BANNER_HOME_1920X580P_V2.jpg" alt="banner ilustrativo" class="image">
+    <!-- <div class="container">
       <div class="columns">
         <div class="column main-title has-text-centered">
           <h1 class="title is-3">
-            <!-- <span>Uma clínica completa</span> para o tratamento dos seus olhos -->
+            <span>Uma clínica completa</span> para o tratamento dos seus olhos
           </h1>
         </div>
-        <!-- <div class="column banner-menu">
+        <div class="column banner-menu">
           <div class="columns">
             <div class="column has-text-centered">
               <figure>
@@ -38,8 +39,9 @@
               </figure>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
+    </div> -->
   </section>
   <div class="color-group">
     <div class="color-1"></div>
