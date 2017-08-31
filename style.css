@@ -195,10 +195,8 @@ a.nav-item.is-tab.is-active {
 
 .home .hero
 .hero-body {
-  background-image: url('assets/images/IV_SITE_BANNER_HOME_1920X580P.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background: url('assets/images/IV_SITE_BANNER_HOME_1920X580P_V2.jpg') no-repeat center;
   height: 53vh;
 }
 
