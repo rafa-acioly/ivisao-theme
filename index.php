@@ -30,30 +30,7 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-end">
-      <div class="navbar-item">
-        <a href="">Quem somos</a>
-      </div>
-      <div class="navbar-item">
-        <a href="">Exames</a>
-      </div>
-      <div class="navbar-item">
-        <a href="">Cirurgias</a>
-      </div>
-      <div class="navbar-item">
-        <a href="">Corpo clinico</a>
-      </div>
-      <div class="navbar-item">
-        <a href="">Convênios</a>
-      </div>
-      <div class="navbar-item">
-        <a href="">Área médica</a>
-      </div>
-      <div class="navbar-item">
-        <a href="">Pré-agendamento</a>
-      </div>
-      <div class="navbar-item">
-        <a href="">Contato</a>
-      </div>
+      <?= do_action('createToggleActiveMenu'); ?>
     </div>
   </div>
 </nav>

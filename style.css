@@ -149,6 +149,11 @@ body {
   font-family: 'MuseoBolder', sans-serif;
 }
 
+.navbar .navbar-menu .navbar-end .navbar-item.navbar-item-active {
+  font-family: 'MuseoBolder', sans-serif;
+  border-bottom: 2px solid #1883AE;
+}
+
 .hero-content-body figure img {
   flex: 1;
   max-height: 100%;

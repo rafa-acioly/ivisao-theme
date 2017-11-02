@@ -70,9 +70,9 @@ function createNavToggleMenu ()
 
   foreach ($menu as $item):
     if (sanitize_title( strtolower($item->title) ) === $slug) {
-      echo "<a href='{$item->url}' class='nav-item is-tab is-active'>{$item->title}</a>";
+      echo "<div class='navbar-item navbar-item-active'><a href='{$item->url}'>{$item->title}</a></div>";
     } else {
-      echo "<a href='{$item->url}' class='nav-item is-tab'>{$item->title}</a>";
+      echo "<div class='navbar-item'><a href='{$item->url}'>{$item->title}</a></div>";
     }
   endforeach;
 }
