@@ -81,7 +81,7 @@
       </div>
     </div>
   </div>
-  <?= do_shortcode("[metaslider id=41]"); ?>
+  <?= do_shortcode("[metaslider id=92]"); ?>
 </main>
 <?php get_footer(); wp_footer(); ?>
 </body>
