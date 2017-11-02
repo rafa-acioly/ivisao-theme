@@ -76,6 +76,10 @@ body {
   margin: 0 .5rem;
 }
 
+.hero-content-header a {
+  color: white;
+}
+
 .hero-content-header .pipe-separator {
   margin: 0 1rem;
 }
@@ -94,6 +98,10 @@ body {
 
 .navbar .navbar-menu .navbar-end .navbar-item {
   padding: .5rem;
+}
+
+.navbar .navbar-brand .navbar-item img {
+  max-height: 4rem;
 }
 
 .navbar .navbar-menu .navbar-end .navbar-item:last-child {

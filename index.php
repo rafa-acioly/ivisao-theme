@@ -2,9 +2,9 @@
 
 <div class="hero hero-content-header">
   <div class="has-text-right">
-    <i class="fa fa-phone fa-fw"></i>12 99750.7888
-    <i class="fa fa-whatsapp fa-fw"></i>12 99750.7888
-    <i class="fa fa-whatsapp fa-fw"></i>12 99767.7888
+    <i class="fa fa-phone fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
+    <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
+    <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997677888">12 99767.7888</a>
     <span class="pipe-separator">|</span>
     <address>Av. Tivoli, 279 JD. Bethania São José dos Campos</address>
   </div>
@@ -13,7 +13,7 @@
 <nav class="navbar" role="navigation" aria-label="navegação principal">
   <div class="navbar-brand">
     <a href="" class="navbar-item">
-      <img src="http://placehold.it/400x200" alt="logotipo">
+      <img src="<?= get_template_directory_uri(); ?>/assets/images/iv_logo_horizontal.png" alt="logotipo">
     </a>
   </div>
 
