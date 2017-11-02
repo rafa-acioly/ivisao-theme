@@ -1,49 +1,34 @@
-<nav class="nav">
-  <div class="container">
-    <div class="nav-left">
-      <div class="nav-item">
-        <a href="<?= get_home_url(); ?>">
-          <img src="<?= get_template_directory_uri(); ?>/assets/images/iv_logo_horizontal.png" alt="">
-        </a>
-      </div>
-    </div>
+<div class="hero hero-content-header">
+  <div class="has-text-right">
+    <i class="fa fa-phone fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
+    <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
+    <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997677888">12 99767.7888</a>
+    <span class="pipe-separator is-hidden-mobile">|</span>
+    <address class="is-hidden-mobile">Av. Tivoli, 279 JD. Bethania São José dos Campos</address>
+  </div>
+</div>
+<div class="color-group">
+  <div class="color-1"></div>
+  <div class="color-2"></div>
+  <div class="color-3"></div>
+  <div class="color-4"></div>
+</div>
 
-    <div class="nav-right nav-menu">
-      <div class="nav-menu-contact is-hidden-mobile">
-        <div class="nav-item">
-          <span class="icon"><i class="fa fa-phone fa-fw"></i></span>
-          <a href="tel:+551238467888">12 3846.7888</a>
-        </div>
-        <div class="nav-item">
-          <span class="icon"><i class="fa fa-whatsapp fa-fw"></i></span>
-          <a href="tel:+5512997507888">12 99750.7888</a>
-        </div>
-        <div class="nav-item">
-          <span class="icon"><i class="fa fa-whatsapp fa-fw"></i></span>
-          <a href="tel:+5512997677888">12 99767.7888</a>
-        </div>
-        <div class="nav-item">
-          <span class="icon"><i class="fa fa-envelope fa-fw"></i></span>
-          <a href="mailto:contato@ivisaosjc.com.br">contato@ivisaosjc.com.br</a>
-        </div>
-      </div>
-      <div class="nav-menu-itens">
-        <?= do_action('createToggleActiveMenu'); ?>
-        <!-- <a href="" class="nav-item is-tab">Pagina Inicial</a>
-        <a class="nav-item is-tab">Empresas</a>
-        <a class="nav-item is-tab">Exames</a>
-        <a class="nav-item is-tab">Cirurgias</a>
-        <a class="nav-item is-tab">Para Médicos</a>
-        <a class="nav-item is-tab">Corpo Clínico</a>
-        <a class="nav-item is-tab">Contato</a>
-        <a class="nav-item is-tab">Pré-agendamento</a> -->
-      </div>
-    </div>
+<nav class="navbar" role="navigation" aria-label="navegação principal">
+  <div class="navbar-brand">
+    <a href="/" class="navbar-item">
+      <img src="<?= get_template_directory_uri(); ?>/assets/images/iv_logo_horizontal.png" alt="logotipo">
+    </a>
 
-    <span class="nav-toggle">
+    <button class="button navbar-burger is-white">
       <span></span>
       <span></span>
       <span></span>
-    </span>
+    </button>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <?= do_action('createToggleActiveMenu'); ?>
+    </div>
   </div>
 </nav>
