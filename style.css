@@ -72,6 +72,7 @@ body {
   color: white;
 }
 
+
 .hero-content-header i {
   margin: 0 .5rem;
 }
@@ -96,12 +97,39 @@ body {
   min-height: 5.25rem;
 }
 
+@media screen and (max-width: 700px) {
+  .navbar {
+    min-height: 3.25rem;
+  }
+}
+
+.navbar .navbar-burger {
+  align-self: center;
+}
+
 .navbar .navbar-menu .navbar-end .navbar-item {
   padding: .5rem;
 }
 
 .navbar .navbar-brand .navbar-item img {
   max-height: 4rem;
+}
+
+@media screen and (max-width: 867px) {
+  .navbar .navbar-brand .navbar-item img {
+    max-height: 3.5rem;
+  }
+
+  .navbar .navbar-menu {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar .navbar-brand .navbar-item img {
+    max-height: 2.5rem;
+  }
 }
 
 .navbar .navbar-menu .navbar-end .navbar-item:last-child {
@@ -130,6 +158,8 @@ body {
 .hero-content-body .hero-side-menu {
   position: absolute;
   right: 0;
+  top: 50%;
+  z-index: 1;
 }
 
 .hero-content-body .hero-side-menu .hero-menu-item {
@@ -142,6 +172,14 @@ body {
   justify-content: center;
   padding: 0 .5rem;
   width: 100%;
+}
+
+.hero-content-body .hero-side-menu .hero-menu-item:first-child h2 {
+  color: #8a50a4;
+}
+
+.hero-content-body .hero-side-menu .hero-menu-item:last-child h2 {
+  color: #FF3F3E;
 }
 
 .title span {
@@ -371,12 +409,6 @@ figcaption .title + .subtitle {
   align-self: flex-start;
 }
 
-/*.home .hero
-.hero-section .columns
-.column:not(:last-child) {
-  flex-direction: column;
-}*/
-
 .home .hero
 .hero-section .columns
 .column {
@@ -386,7 +418,7 @@ figcaption .title + .subtitle {
 
 .home .color-group {
   display: flex;
-  height: 5px;
+  height: 4px;
 }
 
 .home .color-group div[class^="color-"] {

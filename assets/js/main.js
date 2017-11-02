@@ -9,35 +9,42 @@ $(document).ready(function () {
   });
 
   /**
-   * Configura o slide para exibição de fotos dos médicos
+   * Adiciona o efeito de abrir e fechar o menu mobile
    */
-  $('.slick-item').slick({
-    arrows: true,
-    infinite: true,
-  	adaptiveHeight: true,
-  	// autoplay: true,
-  	autoplaySpeed: 2000,
-  	slidesPerRow: 2,
-  	slidesToShow: 4,
-    centerMode: true,
-    getSlick: function (slicks) {
-      console.log(slicks);
-    }
+  $('.navbar button.navbar-burger').on('click', function () {
+    $('.navbar .navbar-menu').toggleClass('is-active');
   });
 
-  $('.slick-convenios').slick({
-    arrows: false,
-    infinite: true,
-  	adaptiveHeight: true,
-  	autoplay: true,
-  	autoplaySpeed: 2000,
-  	slidesPerRow: 2,
-  	slidesToShow: 5,
-    variableWidth: true,
-    getSlick: function (slicks) {
-      console.log(slicks);
-    }
-  });
+  /**
+   * Configura o slide para exibição de fotos dos médicos
+   */
+  // $('.slick-item').slick({
+  //   arrows: true,
+  //   infinite: true,
+  // 	adaptiveHeight: true,
+  // 	// autoplay: true,
+  // 	autoplaySpeed: 2000,
+  // 	slidesPerRow: 2,
+  // 	slidesToShow: 4,
+  //   centerMode: true,
+  //   getSlick: function (slicks) {
+  //     console.log(slicks);
+  //   }
+  // });
+
+  // $('.slick-convenios').slick({
+  //   arrows: false,
+  //   infinite: true,
+  // 	adaptiveHeight: true,
+  // 	autoplay: true,
+  // 	autoplaySpeed: 2000,
+  // 	slidesPerRow: 2,
+  // 	slidesToShow: 5,
+  //   variableWidth: true,
+  //   getSlick: function (slicks) {
+  //     console.log(slicks);
+  //   }
+  // });
 
   /**
    * Define a altura do background que passa por traz
