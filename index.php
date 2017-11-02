@@ -62,9 +62,9 @@
   <div class="hero-side-menu">
     <div class="hero-menu-item">
       <div class="hero-menu-img">
-        <a href=""><img src="http://placehold.it/100x100" alt=""></a>
+        <a href=""><img src="<?= get_template_directory_uri(); ?>/assets/images/doctor-icon.png" alt=""></a>
       </div>
-      <div class="hero-menu-content has-text-centered">
+      <div class="hero-menu-content has-text-left">
         <a href=""><h2 class="title is-5">Área médica</h2></a>
         <h3 class="subtitle is-7">Área restrira para profissionais</h3>
       </div>
@@ -72,10 +72,10 @@
     <div class="hero-menu-item">
       <div class="hero-menu-img">
         <a href="">
-          <img src="http://placehold.it/100x100" alt="">
+          <img src="<?= get_template_directory_uri(); ?>/assets/images/calendar-icon.png" alt="">
         </a>
       </div>
-      <div class="hero-menu-content has-text-centered">
+      <div class="hero-menu-content has-text-left">
         <a href=""><h2 class="title is-5">Pré-agendamento</h2></a>
         <h3 class="subtitle is-7">Consulta e exames</h3>
       </div>
