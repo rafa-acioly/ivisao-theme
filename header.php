@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/bulma.min.css">
     <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/style.css">
-    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/assets/slick/slick.css">
-    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/assets/js/slick/slick.css">
+    <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/assets/js/slick/slick-theme.css">
     
   </head>
   <body <?php body_class(); ?>>

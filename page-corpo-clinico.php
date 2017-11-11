@@ -9,7 +9,7 @@
 				<article class="column is-half is-offset-one-quarter content has-text-centered">
 					<?php while(have_posts()) : the_post(); ?>
 						<h1 class="title"><?php the_title(); ?></h1>
-						<p><?= the_content(); ?></p>
+						<?= the_content(); ?>
 					<?php endwhile; ?>
 				</article>
 			</div>
@@ -24,6 +24,5 @@
 			</div>
 		</div>
 	</div>
-	<div class="slick-background"></div>
-	<?php get_template_part( 'components/hero', 'footer' ); ?>
+	<?php get_footer(); ?>
 </div>

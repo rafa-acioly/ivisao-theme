@@ -18,40 +18,33 @@ $(document).ready(function () {
   /**
    * Configura o slide para exibição de fotos dos médicos
    */
-  // $('.slick-item').slick({
-  //   arrows: true,
-  //   infinite: true,
-  // 	adaptiveHeight: true,
-  // 	// autoplay: true,
-  // 	autoplaySpeed: 2000,
-  // 	slidesPerRow: 2,
-  // 	slidesToShow: 4,
-  //   centerMode: true,
-  //   getSlick: function (slicks) {
-  //     console.log(slicks);
-  //   }
-  // });
-
-  // $('.slick-convenios').slick({
-  //   arrows: false,
-  //   infinite: true,
-  // 	adaptiveHeight: true,
-  // 	autoplay: true,
-  // 	autoplaySpeed: 2000,
-  // 	slidesPerRow: 2,
-  // 	slidesToShow: 5,
-  //   variableWidth: true,
-  //   getSlick: function (slicks) {
-  //     console.log(slicks);
-  //   }
-  // });
-
-  /**
-   * Define a altura do background que passa por traz
-   * das fotos dos médicos
-   */
-  // var windowHeight = $(window).height(),
-  //     halfButton = $('.slick-arrow').height() / 2,
-  //     distance = $('.slick-arrow').offset().top;
-  // $('.slick-background').css('height', (windowHeight - distance) - halfButton);
+  $('.slick-item').slick({
+    centerMode: true,
+    variableWidth: false,
+    centerPadding: '50px',
+    slidesToShow: 3,
+    getSlick: function (slicks) {
+      console.log(slicks);
+    },
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
 });

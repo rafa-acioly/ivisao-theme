@@ -3,13 +3,6 @@
 add_theme_support( 'menus' );
 add_theme_support('post-thumbnails');
 
-function add_slick_slider () {
-  wp_enqueue_script( 'slide', get_template_directory_uri() . '/assets/js/slick.js' );
-}
-if (is_single()) {
-  add_action( 'wp_enqueue_scripts', 'add_slick_slider' );
-}
-
 /**
  * Remove opções do dashboard principal
  */

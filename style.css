@@ -111,6 +111,7 @@ body {
   padding: .5rem;
 }
 
+
 .navbar .navbar-brand .navbar-item img {
   max-height: 4rem;
 }
@@ -123,8 +124,14 @@ body {
   .navbar .navbar-menu {
     position: absolute;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
   }
+
+  .hero-content-body .hero-side-menu .hero-menu-item .hero-menu-img a img {
+    max-height: 70%;
+    max-width: 70%;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -178,6 +185,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 
 .hero-content-body .hero-side-menu .hero-menu-item .hero-menu-content {
   justify-content: center;

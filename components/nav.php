@@ -4,7 +4,7 @@
     <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
     <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997677888">12 99767.7888</a>
     <span class="pipe-separator is-hidden-mobile">|</span>
-    <address class="is-hidden-mobile">Av. Tivoli, 279 JD. Bethania São José dos Campos</address>
+    <address>Av. Tivoli, 279 JD. Bethania São José dos Campos / SP</address>
   </div>
 </div>
 <div class="color-group">

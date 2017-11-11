@@ -37,6 +37,14 @@
 
 .slick-slide figure figcaption {
   margin-top: 1rem;
-  color: white;
   font-family: 'MuseoBolder', sans-serif;
+  color: white;
+}
+
+.slick-slide:not(.slick-current) {
+  transform: scale(.80);
+}
+
+.slick-slide .slick-current {
+  width: auto !important;
 }

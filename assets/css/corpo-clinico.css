@@ -1,9 +1,16 @@
 #corpo-clinico .hero-body .content .title {
 	font-family: 'MuseoLight', sans-serif;
-	color: #4172a5;
+	color: white;
 	text-transform: uppercase;
 }
 
+#corpo-clinico .hero-body .content p {
+	color: white;
+}
+
 #corpo-clinico .hero-body {
-	background-color: #eae7e6;
+	background-image: url(../images/IV_SITE_CORPO_CLINICO.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
