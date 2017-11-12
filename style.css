@@ -68,6 +68,10 @@ body {
   font-family: 'Museo', sans-serif;
 }
 
+.hero-content-header .hero-content-item {
+  display: inline-block;
+}
+
 .hero-content-header, .hero-content-header i {
   color: white;
 }
@@ -339,9 +343,6 @@ a.nav-item.is-tab.is-active {
 
 .home .hero
 .hero-body {
-  /* background-size: cover;
-  background: url('assets/images/IV_SITE_BANNER_HOME_1920X580P_V2.jpg') no-repeat center;
-  height: 53vh; */
   padding: 0;
 }
 
@@ -501,8 +502,15 @@ figcaption .title + .subtitle {
     justify-content: flex-start;
     margin: .5rem;
   }
-}
 
+  .metaslider .flexslider ul.slides li img {
+    width: auto;
+    display: initial;
+    height: 100%;
+    max-width: initial;
+  }
+
+}
 
 /**
  * Configuração de cores que servem de suporte para caixas,

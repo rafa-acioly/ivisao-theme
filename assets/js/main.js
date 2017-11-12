@@ -20,19 +20,15 @@ $(document).ready(function () {
    */
   $('.slick-item').slick({
     centerMode: true,
-    variableWidth: false,
-    centerPadding: '50px',
+    centerPadding: '60px',
     slidesToShow: 3,
-    getSlick: function (slicks) {
-      console.log(slicks);
-    },
     responsive: [
       {
         breakpoint: 768,
         settings: {
           arrows: false,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '30px',
           slidesToShow: 3
         }
       },

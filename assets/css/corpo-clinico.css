@@ -14,3 +14,9 @@
 	background-position: center;
 	background-size: cover;
 }
+
+@media screen and (max-width: 800px) {
+	#corpo-clinico .hero-body {
+		display: initial;
+	}
+}
