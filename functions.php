@@ -1,8 +1,9 @@
 <?php
 
+
+define('ACF_EARLY_ACCESS', '5');
 add_theme_support( 'menus' );
 add_theme_support('post-thumbnails');
-register_nav_menu('mainMenu', 'Menu Principal');
 
 /**
  * Remove opções do dashboard principal

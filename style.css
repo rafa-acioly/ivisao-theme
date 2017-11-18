@@ -55,11 +55,17 @@ License URI:        http://opensource.org/licenses/MIT
  */
 html, body {
   font-family: 'Museo', sans-serif;
+  overflow: hidden;
 }
 
 body {
-  overflow: hidden;
   height: 100%;
+}
+
+@media screen and (max-width: 867px) {
+  body {
+    overflow: initial;
+  }
 }
 
 .hero-content-header {
@@ -548,5 +554,4 @@ figcaption .title + .subtitle {
  */
 main .metaslider .slides li img {
   min-width: 100vw;
-  min-height: 100vh;
 }

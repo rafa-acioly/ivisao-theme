@@ -1,4 +1,4 @@
-<div class="hero hero-content-header">
+<div class="hero hero-content-header is-hidden-mobile">
   <div class="has-text-right">
     <div class="hero-content-item">
       <i class="fa fa-phone fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>

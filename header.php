@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -9,6 +10,6 @@
     <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/style.css">
     <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/assets/js/slick/slick.css">
     <link rel="stylesheet" href="<?= get_stylesheet_directory_uri(); ?>/assets/js/slick/slick-theme.css">
-    
+    <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
