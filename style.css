@@ -63,7 +63,7 @@ body {
 }
 
 @media screen and (max-width: 867px) {
-  body {
+  html, body {
     overflow: initial;
   }
 }
