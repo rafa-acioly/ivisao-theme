@@ -148,13 +148,13 @@ body {
   padding-right: .8rem;
 }
 
-.navbar .navbar-menu .navbar-end .navbar-item a {
+.navbar .navbar-menu .navbar-end > .navbar-item a {
   color: #1883AE;
   text-transform: uppercase;
   font-size: .8rem;
 }
 
-.navbar .navbar-menu .navbar-end > .navbar-item a:hover {
+.navbar .navbar-menu .navbar-end > .navbar-item + a:hover {
   padding-bottom: .5rem;
   border-bottom: 2px solid #1883AE;
   font-family: 'MuseoBolder', sans-serif;
