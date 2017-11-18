@@ -542,3 +542,12 @@ figcaption .title + .subtitle {
 .hero-body .columns .color-group .color-4 {
   border: 3px solid #ef413d;
 }
+
+/*
+ * Configurações para manter o slide sempre com 100% de largura
+ * e altura
+ */
+main .metaslider .slides li img {
+  min-width: 100vw;
+  min-height: 100vh;
+}
