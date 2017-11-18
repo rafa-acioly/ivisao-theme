@@ -30,11 +30,7 @@
   </div>
 </main>
 <div class="hero is-fullheight hero-mobile-view is-hidden-tablet">
-  <div class="hero-body">
-    <div class="is-hidden-desktop">
-      <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
-    </div>
-  </div>
+  <img src="https://source.unsplash.com/350x700/?nature,water" alt="">
   <div class="hero-foot">
     <div class="hero-content-header">
       <div class="has-text-centered">

@@ -68,6 +68,10 @@ body {
   }
 }
 
+html.home {
+  overflow: hidden;
+}
+
 .hero-content-header {
   padding: .6rem;
   background-color: #163963;
@@ -441,28 +445,28 @@ figcaption .title + .subtitle {
   flex-direction: column;
 }
 
-.home .color-group {
+.color-group {
   display: flex;
   height: 4px;
 }
 
-.home .color-group div[class^="color-"] {
+.color-group div[class^="color-"] {
   flex-basis: 25%;
 }
 
-.home .color-group .color-1 {
+.color-group .color-1 {
   border: 3px solid #0074a8;
 }
 
-.home .color-group .color-2 {
+.color-group .color-2 {
   border: 3px solid #fbb040;
 }
 
-.home .color-group .color-3 {
+.color-group .color-3 {
   border: 3px solid #7c51a1;
 }
 
-.home .color-group .color-4 {
+.color-group .color-4 {
   border: 3px solid #ef413d;
 }
 
