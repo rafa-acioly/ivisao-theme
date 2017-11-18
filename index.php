@@ -2,7 +2,7 @@
 
 <?php get_template_part('components/nav', 'nav'); ?>
 
-<main class="hero hero-content-body">
+<main class="hero hero-content-body is-hidden-mobile">
   <div class="hero-side-menu is-hidden-mobile">
     <div class="hero-menu-item">
       <div class="hero-menu-img">
@@ -28,10 +28,31 @@
   <div class="is-hidden-mobile">
     <?php echo do_shortcode('[smartslider3 slider=2]'); ?>
   </div>
-  <div class="is-hidden-desktop">
-    <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
-  </div>
 </main>
+<div class="hero is-fullheight hero-mobile-view is-hidden-tablet">
+  <div class="hero-body">
+    <div class="is-hidden-desktop">
+      <?php echo do_shortcode('[smartslider3 slider=3]'); ?>
+    </div>
+  </div>
+  <div class="hero-foot">
+    <div class="hero-content-header">
+      <div class="has-text-centered">
+        <div class="hero-content-item">
+          <i class="fa fa-phone fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
+        </div>
+        <div class="hero-content-item">
+          <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
+        </div>
+        <div class="hero-content-item">
+          <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997677888">12 99767.7888</a>
+        </div>
+        <span class="pipe-separator is-hidden-mobile">|</span>
+        <address>Av. Tivoli, 279 JD. Bethania São José dos Campos / SP</address>
+      </div>
+    </div>
+  </div>
+</div>
 <?php get_footer(); wp_footer(); ?>
 </body>
 </html>

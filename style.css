@@ -555,3 +555,34 @@ figcaption .title + .subtitle {
 main .metaslider .slides li img {
   min-width: 100vw;
 }
+
+.hero-mobile-view .n2-ss-3-align {
+  height: 100vh;
+}
+
+
+.hero-mobile-view .hero-content-header .hero-content-item,
+.hero-mobile-view .hero-content-header {
+  font-size: .8rem;
+}
+
+.hero-mobile-view .hero-content-header {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.hero-mobile-view .hero-side-menu {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+
+.hero-mobile-view .hero-side-menu .hero-menu-item {
+  display: flex;
+}
+
+.hero-mobile-view .hero-side-menu .hero-menu-item {
+  background-color: #fff;
+}
