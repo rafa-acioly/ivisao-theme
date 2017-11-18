@@ -34,7 +34,7 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-end">
-      <?= do_action('createToggleActiveMenu'); ?>
+      <?php do_action('createToggleActiveMenu'); ?>
     </div>
   </div>
 </nav>
