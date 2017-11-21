@@ -7,7 +7,7 @@
 	<div class="hero-body">
 		<div class="container">
 			<div class="columns">
-				<div class="column is-7 is-offset-1 content">
+				<div class="column is-5 is-offset-1 content">
 					<?php while(have_posts()) : the_post(); ?>
 						<?php the_content(); ?>
 					<?php endwhile; ?>

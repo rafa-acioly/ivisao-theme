@@ -1,5 +1,5 @@
 #page-historia .hero-body {
-	background: url('../images/background-historia.jpg') no-repeat;
+	background: url('../images/background-historia.png') no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
@@ -10,7 +10,7 @@
 }
 
 #page-historia .hero-body .columns .column:not(.color-group) {
-	background-color: rgba(29, 105, 149, .9);
+	background-color: rgba(41, 68, 102, 0.88);
 	padding: 3rem;
 	margin-bottom: 0;
 }
