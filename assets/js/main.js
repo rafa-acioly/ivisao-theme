@@ -20,7 +20,9 @@ $(document).ready(function () {
    */
   $('.slick-item').slick({
     centerMode: true,
-    centerPadding: '60px',
+    centerPadding: '50px',
+    autoplay: true,
+    autoplayspeed: 3000,
     slidesToShow: 3,
     responsive: [
       {
