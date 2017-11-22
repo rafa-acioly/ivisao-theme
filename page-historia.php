@@ -12,7 +12,7 @@
 						<?php the_content(); ?>
 					<?php endwhile; ?>
 				</div>
-				<div class="column color-group is-7 is-offset-1">
+				<div class="column color-group is-5 is-offset-1">
 					<div class="color-1"></div>
 					<div class="color-2"></div>
 					<div class="color-3"></div>
