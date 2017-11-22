@@ -1,17 +1,10 @@
 $(document).ready(function () {
 
   /**
-   * Adiciona a interação com menu hamburguer em dispositivos mobile
-   */
-  $('.nav-toggle').on('click', function () {
-    $(this).toggleClass("is-active");
-    $('.nav-right').toggleClass('is-active');
-  });
-
-  /**
    * Adiciona o efeito de abrir e fechar o menu mobile
    */
   $('.navbar button.navbar-burger').on('click', function () {
+    $(this).toggleClass('is-active');
     $('.navbar .navbar-menu').toggleClass('is-active');
   });
 
@@ -28,7 +21,7 @@ $(document).ready(function () {
       {
         breakpoint: 768,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
           centerPadding: '30px',
           slidesToShow: 3
@@ -37,9 +30,9 @@ $(document).ready(function () {
       {
         breakpoint: 480,
         settings: {
-          arrows: false,
+          arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '20px',
           slidesToShow: 1
         }
       }

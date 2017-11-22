@@ -14,6 +14,12 @@
 	margin-bottom: 0;
 }
 
+@media screen and (max-width: 876px) {
+	#page-missao .hero-body .columns .column:not(.color-group) {
+		padding: 1rem;
+	}
+}
+
 
 #page-missao .hero-body .columns .column h1,
 #page-missao .hero-body .columns .column h2 {

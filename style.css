@@ -78,6 +78,10 @@ html.home {
   font-family: 'Museo', sans-serif;
 }
 
+footer .hero-content-header {
+  font-size: .7rem;
+}
+
 .hero-content-header .hero-content-item {
   display: inline-block;
 }
@@ -109,6 +113,12 @@ html.home {
 
 .navbar {
   min-height: 5.25rem;
+}
+
+@media screen and (max-width: 876px) {
+  .navbar-item, .navbar-link {
+    padding: .5rem 0;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -564,10 +574,9 @@ main .metaslider .slides li img {
   height: 100vh;
 }
 
-
 .hero-mobile-view .hero-content-header .hero-content-item,
 .hero-mobile-view .hero-content-header {
-  font-size: .8rem;
+  font-size: .7rem;
 }
 
 .hero-mobile-view .hero-content-header {

@@ -48,3 +48,11 @@
 .slick-slide .slick-current {
   width: auto !important;
 }
+
+.slick-slider .slick-next {
+  right: 0;
+}
+
+.slick-slider .slick-prev {
+  left: 0px;
+}
