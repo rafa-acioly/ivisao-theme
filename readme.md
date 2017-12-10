@@ -1,0 +1,3 @@
+## Tema wordpress para instituto da visão
+
+Cada pagina possui seu proprio estilo css embora o os estilos sejam iguais, ***sim eu sei que poderia ter usado um template padrão*** isso foi implementado deste jeito porque o cliente tem mania de querer alterar o layout a hora que bem entender por isso criei um estilo para cada pagina para que não fosse necessario criar gambiarras no css para satisfazer apenas uma pagina.
