@@ -1,0 +1,43 @@
+#page-cirurgias .hero-body {
+	background: url('../images/cirurgias_bg.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#page-cirurgias .hero-body .columns {
+	flex-direction: column;
+}
+
+#page-cirurgias .hero-body .columns .column:not(.color-group) {
+	background-color: rgba(53,82,115,0.9);
+	padding: 3rem;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 876px) {
+	#page-cirurgias .hero-body .columns .column:not(.color-group) {
+		padding: 1rem;
+	}
+}
+
+
+#page-cirurgias .hero-body .columns .column h1,
+#page-cirurgias .hero-body .columns .column h2 {
+	text-transform: uppercase;
+	font-family: 'MuseoLight', sans-serif;
+}
+
+#page-cirurgias .hero-body .columns .column h1,
+#page-cirurgias .hero-body .columns .column h2,
+#page-cirurgias .hero-body .columns .column p,
+#page-cirurgias .hero-body .columns .column table tbody tr td ul li {
+	color: white;
+}
+
+#page-cirurgias .hero-body .columns .column table tbody tr td ul {
+	margin-left: 0;
+}
+
+.content table tr:hover {
+	background-color: initial;
+}

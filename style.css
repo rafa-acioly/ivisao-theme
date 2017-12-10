@@ -51,6 +51,23 @@ License URI:        http://opensource.org/licenses/MIT
 @import url('assets/css/footer.css');
 
 /**
+ * Configuração de pagina area medica
+ */
+@import url('assets/css/page-area-medica.css');
+
+
+/**
+ * Configuração de pagina cirurgias
+ */
+@import url('assets/css/page-cirurgias.css');
+
+/**
+ * Configuração de pagina exames
+ */
+ @import url('assets/css/page-exames.css');
+ 
+
+/**
  * Configurações diretas de HTML nativo
  */
 html, body {

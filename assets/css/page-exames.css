@@ -1,0 +1,43 @@
+#page-exames .hero-body {
+	background: url('../images/exames_bg.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#page-exames .hero-body .columns {
+	flex-direction: column;
+}
+
+#page-exames .hero-body .columns .column:not(.color-group) {
+	background-color: rgba(53,82,115,0.9);
+	padding: 3rem;
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 876px) {
+	#page-exames .hero-body .columns .column:not(.color-group) {
+		padding: 1rem;
+	}
+}
+
+
+#page-exames .hero-body .columns .column h1,
+#page-exames .hero-body .columns .column h2 {
+	text-transform: uppercase;
+	font-family: 'MuseoLight', sans-serif;
+}
+
+#page-exames .hero-body .columns .column h1,
+#page-exames .hero-body .columns .column h2,
+#page-exames .hero-body .columns .column p,
+#page-exames .hero-body .columns .column table tbody tr td ul li {
+	color: white;
+}
+
+#page-exames .hero-body .columns .column table tbody tr td ul {
+	margin-left: 0;
+}
+
+.content table tr:hover {
+	background-color: initial;
+}
