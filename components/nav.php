@@ -1,13 +1,13 @@
 <div class="hero hero-content-header is-hidden-mobile">
   <div class="has-text-right">
     <div class="hero-content-item">
-      <i class="fa fa-phone fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
+      <i class="fa fa-phone fa-fw"></i><a href="tel:1239467888">12 3946.7888</a>
     </div>
     <div class="hero-content-item">
       <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997507888">12 99750.7888</a>
     </div>
     <div class="hero-content-item">
-      <i class="fa fa-whatsapp fa-fw"></i><a href="tel:1239467888">12 3946.7888</a>
+      <i class="fa fa-whatsapp fa-fw"></i><a href="tel:12997677888">12 99767.7888</a>
     </div>
     <span class="pipe-separator is-hidden-mobile">|</span>
     <address><a href="https://goo.gl/maps/96hBSki51zN2" target="_blank">Av. Tivoli, 279 - Jd. Bethania - São José dos Campos / SP</a></address>
