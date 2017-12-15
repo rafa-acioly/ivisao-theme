@@ -15,6 +15,10 @@
 	background-size: cover;
 }
 
+#corpo-clinico .more-link {
+	display: none;
+}
+
 @media screen and (max-width: 800px) {
 	#corpo-clinico .hero-body {
 		display: initial;
